@@ -13,7 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniblinkNet", "MiniblinkNet\MiniblinkNet.csproj", "{42294472-EC90-4C05-9F06-C68EDCE6310D}"
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFXIVAPP.Memory", "FFXIVAPP.Memory\FFXIVAPP.Memory.csproj", "{9510D5EF-208A-4897-A582-8EAE5C6E9406}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,16 +48,6 @@ Global
 		{42294472-EC90-4C05-9F06-C68EDCE6310D}.Release|x64.Build.0 = Release|Any CPU
 		{42294472-EC90-4C05-9F06-C68EDCE6310D}.Release|x86.ActiveCfg = Release|Any CPU
 		{42294472-EC90-4C05-9F06-C68EDCE6310D}.Release|x86.Build.0 = Release|Any CPU
-		{9510D5EF-208A-4897-A582-8EAE5C6E9406}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{9510D5EF-208A-4897-A582-8EAE5C6E9406}.Debug|x64.ActiveCfg = Debug|x64
-		{9510D5EF-208A-4897-A582-8EAE5C6E9406}.Debug|x64.Build.0 = Debug|x64
-		{9510D5EF-208A-4897-A582-8EAE5C6E9406}.Debug|x86.ActiveCfg = Debug|x86
-		{9510D5EF-208A-4897-A582-8EAE5C6E9406}.Debug|x86.Build.0 = Debug|x86
-		{9510D5EF-208A-4897-A582-8EAE5C6E9406}.Release|Any CPU.ActiveCfg = Release|x86
-		{9510D5EF-208A-4897-A582-8EAE5C6E9406}.Release|x64.ActiveCfg = Release|x64
-		{9510D5EF-208A-4897-A582-8EAE5C6E9406}.Release|x64.Build.0 = Release|x64
-		{9510D5EF-208A-4897-A582-8EAE5C6E9406}.Release|x86.ActiveCfg = Release|x86
-		{9510D5EF-208A-4897-A582-8EAE5C6E9406}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
