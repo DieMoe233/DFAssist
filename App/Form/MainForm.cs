@@ -10,6 +10,7 @@ namespace App
 {
     public partial class MainForm : Form
     {
+        internal Memory memoryWorker;
         internal Network networkWorker;
         internal Process FFXIVProcess;
         internal OverlayForm overlayForm;
@@ -46,6 +47,7 @@ namespace App
             overlayForm.Show();
             TrackerForm.Show();
             networkWorker = new Network(this);
+            memoryWorker = new Memory(Settings.Language);
 
             label_AboutTitle.Text = $@"DFA {Global.VERSION}_CN";
             FindFFXIVProcess();
@@ -476,6 +478,7 @@ namespace App
             comboBox_Process.SelectedIndex = 0;
 
             networkWorker.StartCapture(FFXIVProcess);
+            memoryWorker.StartCapture(FFXIVProcess);
         }
 
         internal void ShowNotification(string key, params object[] args)
